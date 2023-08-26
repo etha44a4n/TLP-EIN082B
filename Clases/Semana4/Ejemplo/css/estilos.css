@@ -1,0 +1,64 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+}
+
+h1{
+    color: #FF5500;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    padding: 15px;
+    border-style: solid;
+}
+
+#uno:hover, #dos:hover, #tres:hover, #cuatro:hover{
+    background-color: aquamarine;
+}
+
+#par1{
+    color: brown;
+}
+
+.verde{
+    color: green;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+#uno, #dos, #tres, #cuatro{
+    color: whitesmoke;
+    width: 20vw;
+    height: 20vw;
+    border: 3px black solid;
+    text-align: center;
+    padding-top: 8vw;
+    box-sizing: border-box; /*Hace que no sume elementos y modifique el tamaño definido para als cajas*/
+    font-size: 5vw;
+    float: left;
+    /*margin-right: 10px;*/
+}
+
+#uno{
+    background-color: cadetblue;
+}
+
+#dos{
+    background-color: yellowgreen;
+}
+
+#tres{
+    clear: left; /*hace que el 3 baje*/
+    background-color: #FF5500;
+}
+
+#cuatro{
+    clear: left;
+    background-color:chocolate;
+}
+

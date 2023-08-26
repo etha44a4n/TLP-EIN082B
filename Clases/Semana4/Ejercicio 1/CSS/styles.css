@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+.centrar-elemento{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.white-text{
+    color: aliceblue;
+}
+
+header{
+    height: 20.27vh;
+    background: #222A35;
+}
+
+nav{
+    height: 9.459vh;
+    background: #CDDC39;
+}
+
+aside{
+    height: 43.5rem;
+    width: 30.61%;
+    background: #757575;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.greenbox{
+    background: #CDDC39;
+    height: 6.25rem;
+    width: 6.25rem;
+}
+
+article{
+    width: 69.39%;
+    float: right;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bluebox{
+    background: #607D8B;
+    height: 12.5rem;
+    width: 12.5rem;
+}
+
+.greenbox, .bluebox{
+    margin: 1rem;
+    box-sizing: border-box;
+    font-size: 2rem;
+}
+
+footer{
+    height: 9.459vh;
+    background: #F0F4C3;
+    clear: both;
+} 
+
+@media (min-width: 980px) {
+    aside, article{
+        height: 60.81vh;
+    }
+    article{
+        flex-direction: row;
+    }
+}
+
+
