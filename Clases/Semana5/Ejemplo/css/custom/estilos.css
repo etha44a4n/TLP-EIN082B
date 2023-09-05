@@ -1,0 +1,19 @@
+#fila1, #fila2, #fila3{
+    height: 33vh;
+}
+
+#fila1{
+    background-color: beige;
+}
+
+#fila2{
+    background-color: aqua;
+}
+
+#fila3{
+    background-color: blueviolet;
+}
+
+#col8{
+    background-color: violet;
+}

@@ -1,0 +1,62 @@
+/*#6DCCAA #85D4B7 #FFCF3F #404040 #333333 #EFF2F1*/
+#container{
+    margin: 0;
+}
+
+p, #container{
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(163deg) brightness(0%) contrast(60%);
+    transform: scale(2);
+    margin: auto;
+    display: block;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    background: #85D4B7;
+}
+
+footer{
+    background: #6DCCAA;
+}
+
+#vegan{
+    height: 90vh;
+    background: #6DCCAA url(../img/vegan.jpg) center no-repeat;
+    background-size: contain;
+}
+
+
+@media (min-width: 980px){
+    #coaching{
+        padding: 8rem;
+    }
+}
+
+#coaching1, #coaching2{
+    margin: 5vh;
+}
+
+#eetcafe{
+    height: 50vh;
+    background: #FFCF3F url(../img/eetcafe.jpg) center no-repeat;
+    background-size: contain;
+}
+
+#winkel{
+    background: #EFF2F1;
+    height: 30rem;
+}
+
+#contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
